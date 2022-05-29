@@ -1,4 +1,4 @@
-- hosts: test
+- hosts: apt-capable
   become: yes
   tasks: 
   - name: Update and upgrade apt packages
